@@ -54,6 +54,36 @@ section.jumbotron {
   }
 }
 
+.stamp {
+  margin-top:10%;
+  margin-left:-20px;
+      transition: All 0.8249s ease;
+      -webkit-transition: All 0.8249s ease;
+      -moz-transition: All 0.8249s ease;
+      -o-transition: All 0.8249s ease;
+      transform: rotate(0deg) scale(1) skew(0deg) translate(10px);
+      -webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+      -moz-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+      -o-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+      -ms-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+}
+
+.stamp:hover {
+  margin-top:10%;
+
+  margin-left:20px;
+
+  transform: rotate(180deg) scale(1) skew(0deg) translate(8px);
+  -webkit-transform: rotate(180deg) scale(1) skew(0deg) translate(8px);
+  -moz-transform: rotate(180deg) scale(1) skew(0deg) translate(8px);
+  -o-transform: rotate(180deg) scale(1) skew(0deg) translate(8px);
+  -ms-transform: rotate(180deg) scale(1) skew(0deg) translate(8px);
+}
+
+#login{
+  color: #33B79C;
+}
+
 /* Do not remove this comments bellow. It's the markers used by gulp-inject to inject
    all your sass files automatically */
 // injector
