@@ -13,11 +13,11 @@ module flop {
 
   .config(function ($routeProvider: ng.route.IRouteProvider) {
     $routeProvider
-      .when('/', {
+      .when('/none', {
         templateUrl: 'app/main/main.html',
         controller: 'MainCtrl'
       })
-      .when('/flop', {
+      .when('/', {
         templateUrl: 'app/flop/flop.html',
         controller: 'FlopCtrl'
       })

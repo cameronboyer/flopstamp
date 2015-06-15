@@ -10,11 +10,11 @@ var flop;
         .controller('FlopCtrl', flop.FlopCtrl)
         .config(function ($routeProvider) {
         $routeProvider
-            .when('/', {
+            .when('/none', {
             templateUrl: 'app/main/main.html',
             controller: 'MainCtrl'
         })
-            .when('/flop', {
+            .when('/', {
             templateUrl: 'app/flop/flop.html',
             controller: 'FlopCtrl'
         })
