@@ -9,12 +9,17 @@ module flop {
   angular.module('flop', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngResource', 'ngRoute', 'ngMaterial'])
     .controller('MainCtrl', MainCtrl)
     .controller('NavbarCtrl', NavbarCtrl)
+    .controller('FlopCtrl', FlopCtrl)
 
   .config(function ($routeProvider: ng.route.IRouteProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'app/main/main.html',
         controller: 'MainCtrl'
+      })
+      .when('/flop', {
+        templateUrl: 'app/flop/flop.html',
+        controller: 'FlopCtrl'
       })
       .otherwise({
         redirectTo: '/'

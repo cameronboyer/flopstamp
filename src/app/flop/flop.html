@@ -1,0 +1,21 @@
+<div layout="column" layout-align="center center" layout-margin>
+  <img class="stamp" src="assets/images/flop.png"/>
+  <md-input-container>
+    <!-- <md-tooltip md-delay="2000" md-direction="top">
+      Facebook Login
+    </md-tooltip> -->
+    <label>Username</label>
+    <input type="text" ng-model="user.name" ng-required="true"></input>
+  </md-input-container>
+  <md-input-container>
+    <!-- <md-tooltip md-delay="2000" md-direction="top">
+      Facebook Password
+    </md-tooltip> -->
+    <label>Password</label>
+    <input ng-model="user.pass" ng-required="true"></input>
+  </md-input-container>
+  <md-button class="md-raised" id="login">
+    <!-- <md-icon md-svg-src="/icon.svg"></md-icon> -->
+    Login with Facebook
+  </md-button>
+</div>
