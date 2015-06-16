@@ -15,9 +15,7 @@
         "!./node_modules/**/*.ts"
     ],
     "files": [
-        "./components/navbar/navbar.controller.ts",
         "./flop/flop.controller.ts",
         "./index.ts",
-        "./main/main.controller.ts"
     ]
 }
