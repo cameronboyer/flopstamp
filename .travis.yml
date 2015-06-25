@@ -4,7 +4,8 @@ node_js:
   - "0.11"
   - "0.10"
 before_script:
-  - npm install -g gulp
+  - npm install -g gulp@3.8.11
   - npm install -g typescript
+  - bower install
 
 script: gulp
