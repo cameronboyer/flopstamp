@@ -1,11 +1,8 @@
 language: node_js
 node_js:
-  - "0.12"
-  - "0.11"
   - "0.10"
 before_script:
   - npm install -g gulp@3.8.11
   - npm install -g typescript
-  - bower install
 
 script: gulp
