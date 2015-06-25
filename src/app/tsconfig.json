@@ -17,5 +17,6 @@
     "files": [
         "./flop/flop.controller.ts",
         "./index.ts",
+        "./main/main.controller.ts"
     ]
 }
