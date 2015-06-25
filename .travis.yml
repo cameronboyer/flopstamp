@@ -9,5 +9,5 @@ before_script:
   - npm install --save-dev gulp-ruby-sass
   - gem install sass
   - npm install -g generator-gulp-angular
-
+  - npm install tsd -g
 script: gulp
